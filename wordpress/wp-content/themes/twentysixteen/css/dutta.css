@@ -13,7 +13,72 @@ font-weight: bold !important;
 	max-width: 100% !important;
 	height: auto !important;
 }
-body{
+#wrapper-outer{
+
+		background-repeat: repeat !important;
+}
+body {
+      background-color: lightpink;
+    }
+#idx-cont_fig03 > article > div{
+	max-width: 310px !important;
+	width: 310px !important;
+}
+#idx-cont_fig03{
+	    left: 41em !important;
+}
+#bln > div:nth-child(9){
+	left: 59em !important;
+}
+@media screen and (max-width: 720px) {
+	#sitehead > h1 > img{
+		width: 80% !important;
+		margin-left: 40% !important;
+	}
+	.blnImg{
+		visibility: hidden !important;
+   }
+	#bln {
+    width: 100% !important;
+	}
+	#wrapper-inner {
+    width: 100% !important;
+	}
+    #news1 {
+    left: 40%!important;
+	}
+	#news2 {
+    left: 80% !important;
+	}
+	#idx-cont_fig01{
+	margin: auto !important;
+	left: 50% !important;
+	}
+	#idx-cont_fig02 {
+	    top: 1636px !important;
+	    left: 40% !important;
+	}
+	#idx-cont_fig03 {
+    left: 25% !important;
+	top: 2300px !important;
+	}
+	#idx-cont_fig04{
+	left: 10% !important;
+	top: 3000px !important;
+	}
+	#idx-cont_fig05{
+	left: 25% !important;
+	top: 3800px !important;
+	}
+	#tree{
+	left: 98% !important;
+	}
+	#bird2{
+	left: 98% !important;
+	}
+}
+/**img{
+	overflow: hidden;
 	
 }
 /**	<?php   $fig5 = 31;
