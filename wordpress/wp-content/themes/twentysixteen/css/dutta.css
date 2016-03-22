@@ -1,0 +1,25 @@
+#footer{
+background-image:url(http://localhost/caohagan_r/wordpress/wp-content/themes/twentysixteen/images/foot_bk.png) !important;}
+.figCopy p{
+font-weight: bold !important;
+}
+.figTxt strong{
+font-weight: bold !important;
+}
+#bkPhoto3 > img,
+#bkPhoto2 > img,
+#bkPhoto1 > img,
+#sitehead > h1 > img {
+	max-width: 100% !important;
+	height: auto !important;
+}
+body{
+	
+}
+/**	<?php   $fig5 = 31;
+				$fig5_query = get_post($fig5);
+                echo $fig5_query->post_title."<br>";
+                echo $fig5_query->post_content."<br>";
+                echo category_description( get_cat_ID('c5') );
+			?>
+		-->	
