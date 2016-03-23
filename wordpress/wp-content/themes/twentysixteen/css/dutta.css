@@ -3,6 +3,10 @@ background-image:url(http://localhost/caohagan_r/wordpress/wp-content/themes/twe
 .figCopy p{
 font-weight: bold !important;
 }
+#bln > div:nth-child(9){
+	left: 772px;
+	left: 2% !important;
+}
 .figTxt strong{
 font-weight: bold !important;
 }
@@ -27,16 +31,20 @@ body {
 #idx-cont_fig03{
 	    left: 41em !important;
 }
-#bln > div:nth-child(9){
-	left: 59em !important;
-}
+
 @media screen and (max-width: 720px) {
-	#sitehead > h1 > img{
-		width: 80% !important;
-		margin-left: 40% !important;
+	#wrapper-inner {
+	left: 0 !important;
+	}
+	#sitehead > h1 > img {
+    max-width: 100% !important;
+    height: auto !important;
+    margin-left: 36%;
+    position: absolute;
 	}
 	.blnImg{
-		visibility: hidden !important;
+	visibility: hidden !important;
+		left: 0px !important;
    }
 	#bln {
     width: 100% !important;
@@ -45,29 +53,50 @@ body {
     width: 100% !important;
 	}
     #news1 {
-    left: 40%!important;
+
 	}
 	#news2 {
-    left: 80% !important;
+
 	}
 	#idx-cont_fig01{
 	margin: auto !important;
-	left: 50% !important;
+
 	}
 	#idx-cont_fig02 {
 	    top: 1636px !important;
-	    left: 40% !important;
+		width: 98% !important;
+		left: 96% !important;
+	}
+	#idx-cont_fig02 > div.idx-bkMid,
+	#idx-cont_fig02 > div.idx-bkBtm > img,
+	#idx-cont_fig02 > div.idx-bkTop > img{
+		width:95% !important;
+	}
+	
+	#idx-cont_fig02 > article > div{
+		width:86% !important;
+	}
+	#idx-cont_fig02 > article > div > div.figCopy{
+		    margin-bottom: 1% !important;
 	}
 	#idx-cont_fig03 {
-    left: 25% !important;
+
 	top: 2300px !important;
 	}
 	#idx-cont_fig04{
-	left: 10% !important;
+	width: 98% !important;
+	left: 96% !important;
 	top: 3000px !important;
 	}
+	#idx-cont_fig04 > div.idx-bkBtm > img,
+	#idx-cont_fig04 > div.idx-bkTop > img{
+	width: 98% !important;
+	}
+	#idx-cont_fig04 > article > div{
+		width:86% !important;		
+	}
+	
 	#idx-cont_fig05{
-	left: 25% !important;
 	top: 3800px !important;
 	}
 	#tree{
@@ -76,6 +105,16 @@ body {
 	#bird2{
 	left: 98% !important;
 	}
+	#footObj {
+    left: 0 !important;
+    margin-left: 0 !important;
+	}
+	#logo {
+    left: 0 !important;
+    margin-left: 0 !important;
+    
+	}
+
 }
 /**img{
 	overflow: hidden;
