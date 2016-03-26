@@ -164,6 +164,7 @@ body {
 }
 img {
 	overflow: hidden;
+	height: auto !important;
 }
 /*date-26/03/2016*/
 #footObj{
@@ -201,12 +202,21 @@ height:85vw !important;
 		left: 0px !important;
    }
    .idx-figCont {
-    padding: 1vw 1vw 1vw 1vw !important;
+    padding: 5vw !important;
 	}
 	#logo {
 	left: 0 !important;
 	width: 80% !important;
 	margin: auto !important;
+	}
+	#idx-cont_fig01,
+	#idx-cont_fig02,
+	#idx-cont_fig03,
+	#idx-cont_fig04,
+	#idx-cont_fig05{
+		width: 100% !important;
+		left: 0 !important;
+		position: relative !important;
 	}
 /*	#wrapper-inner {
 	left: 0 !important;
