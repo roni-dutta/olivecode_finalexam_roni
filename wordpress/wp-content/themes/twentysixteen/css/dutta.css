@@ -71,14 +71,16 @@ font-weight: bold !important;
 	left: 15vw !important;
     top: 322vw !important;
 }
-
+#idx-cont_fig01,
+#idx-cont_fig03,
+#idx-cont_fig05{
+	width: 34% !important;
+}
 
 #bln > div:nth-child(11){
 	left: 30vw !important;
     top: 347vw !important;
 }
-#bkPhoto3 > img,
-#bkPhoto2 > img,
 #sitehead > h1 > img {
 	width: 85% !important;
 	height: auto !important;
@@ -104,19 +106,16 @@ font-weight: bold !important;
 	width: 90% !important;
 }
 #idx-cont_fig01 {
-    top: 50vw !important;
-    left: 60vw !important;
-	width: 35% !important;
+    top: 65vw !important;
+    left: 58vw !important;
 }
 #idx-cont_fig03 {
-    top: 205vw !important;
-    left: 60vw !important;
-	width: 35% !important;
+    top: 225vw !important;
+    left: 54vw !important;
 }
 #idx-cont_fig05 {
-    top: 315vw !important;
-    left: 60vw !important;
-	width: 35% !important;
+    top: 330vw !important;
+    left: 54vw !important;
 }
 #idx-cont_fig01 .idx-figCont {
     width: 80% !important;
@@ -127,11 +126,11 @@ font-weight: bold !important;
 }
 #idx-cont_fig02 {
     width: 50% !important;
-    top: 130vw !important;
+    top: 150vw !important;
 }
 #idx-cont_fig04 {
     width: 50% !important;
-    top: 230vw !important;
+    top: 250vw !important;
 }
 .figImg {
     margin-bottom: 0.5vw !important;
@@ -151,10 +150,6 @@ font-weight: bold !important;
 body {
       background-color: lightpink;
     }
-#bln > div > img{
-	width:100% !important;
-	height:auto !important;
-}
 #bln{
 	width:95%;
 	margin: auto;
@@ -166,13 +161,8 @@ img {
 }
 /*date-26/03/2016*/
 #footObj{
-	min-width: 310px !important;
-    height: 84vw !important;
-    text-align: left !important;
-    position: absolute !important;
     left: 0 !important;
     margin-left: 0 !important;
-	width: 80% !important;
 }
 #footObj #bird1 {
     left: 16vw !important;
@@ -191,17 +181,16 @@ img {
 	left: 25vw !important;
     margin-left: 0 !important;	
 }
-#footer{
-height:85vw !important; 
-}
 #idx-cont_fig05 ul li{
 	width:100% !important;	
 }
+
 @media screen and (max-width: 720px) {
 	#tree,
 	#bird2,
 	#bird1,
-	#bkPhoto3{
+	#bkPhoto3,
+	.blnImg{
 	visibility: hidden !important;
 	left: 0px !important;
 	}
@@ -213,16 +202,17 @@ height:85vw !important;
 		left: 40vw !important;
 		top: 60vw !important;
 	}
-	.blnImg{
-	visibility: hidden !important;
-		left: 0px !important;
-   }
    	/* #idx-cont_fig01 > article > div > div.figTxt{
 		margin-top:30vw !important;
 	}
 	#idx-cont_fig03 > article > div > div.figTxt{
 		margin-top:13vw !important;
 	} */
+	#footObj{
+    left: 0 !important;
+    margin-left: 0 !important;
+	height: 140vw !important;
+	}
    .idx-figCont {
     padding: 5vw !important;
 	}
@@ -244,24 +234,25 @@ height:85vw !important;
 		margin: auto !important;	
 	}
 	#idx-cont_fig01,
+	#idx-cont_fig03,
 	#idx-cont_fig05{
 	max-width:300px !important;
 	height: auto !important;
 	}
-	#idx-cont_fig02,
-	#idx-cont_fig04{
+	#idx-cont_fig02
+	{
 	max-width:350px !important;
-	top: 50vw !important;
+	top: 65vw !important;
 	}
 	#idx-cont_fig02 > div.idx-bkTop > img{
 		height: 250px !important;
 	}
 	#idx-cont_fig03{
-		top: 60vw !important;
-		max-width: 350px !important;
+		top: 72vw !important;
 	}
 	#idx-cont_fig04{
-		top: 70vw !important;
+		top: 75vw !important;
+		max-width:350px !important;
 	}
 	#idx-cont_fig05{
 		top: 80vw !important;
