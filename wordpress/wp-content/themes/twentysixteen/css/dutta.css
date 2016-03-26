@@ -18,7 +18,7 @@ font-weight: bold !important;
 	left: 40vw !important;
 }
 #news2{
-	left: 62vw !important;
+	left: 55vw !important;
 }
 #bkPhoto3{
     top: 330vw !important;
@@ -71,6 +71,10 @@ font-weight: bold !important;
 	left: 15vw !important;
     top: 322vw !important;
 }
+li{
+	width:45% !important;
+}
+
 #bln > div:nth-child(11){
 	left: 30vw !important;
     top: 347vw !important;
@@ -172,10 +176,10 @@ img {
     left: 16vw !important;
 }
 #footObj #bird2 {
-    left: 75vw !important;
+    left: 60vw !important;
 }
 #footObj #tree {
-    left: 77vw !important;
+    left: 50vw !important;
 }
 #logo{
 	left: 25vw !important;
@@ -193,6 +197,14 @@ img {
 	visibility: hidden !important;
 		left: 0px !important;
    }
+   .idx-figCont {
+    padding: 1vw 1vw 1vw 1vw !important;
+	}
+	#logo {
+	left: 0 !important;
+	width: 80% !important;
+	margin: auto !important;
+	}
 /*	#wrapper-inner {
 	left: 0 !important;
 	}
