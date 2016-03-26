@@ -1,11 +1,11 @@
 #footer{
-background-image:url(http://localhost/caohagan_r/wordpress/wp-content/themes/twentysixteen/images/foot_bk.png) !important;}
+background-image:url(http://localhost/caohagan_r/wordpress/wp-content/themes/twentysixteen/images/foot_bk.png) !important;
+}
+
 .figCopy p{
 font-weight: bold !important;
 }
-#bkPhoto1 > img{
-	
-}
+
 .figTxt strong{
 font-weight: bold !important;
 }
@@ -85,7 +85,10 @@ li{
 	width: 85% !important;
 	height: auto !important;
 }
-#bkPhoto1 > img,
+#bkPhoto1 > img{
+	width: 100% !important;
+	height: auto;
+}
 #idx-cont_fig05 > div.idx-bkTop > img,
 #idx-cont_fig05 > div.idx-bkBtm > img,
 #idx-cont_fig04 > div.idx-bkBtm > img,
@@ -190,7 +193,7 @@ img {
     margin-left: 0 !important;	
 }
 #footer{
-	height: 85vw !important;
+height:85vw !important; 
 }
 @media screen and (max-width: 800px) {
 	.blnImg{
