@@ -71,9 +71,7 @@ font-weight: bold !important;
 	left: 15vw !important;
     top: 322vw !important;
 }
-li{
-	width:45% !important;
-}
+
 
 #bln > div:nth-child(11){
 	left: 30vw !important;
@@ -197,6 +195,14 @@ img {
 height:85vw !important; 
 }
 @media screen and (max-width: 800px) {
+	#news1{
+	left: 2vw !important;
+	top: 50vw !important;
+	}
+	#news2{
+		left: 40vw !important;
+		top: 60vw !important;
+	}
 	.blnImg{
 	visibility: hidden !important;
 		left: 0px !important;
@@ -217,6 +223,12 @@ height:85vw !important;
 		width: 100% !important;
 		left: 0 !important;
 		position: relative !important;
+	}
+	#idx-cont_fig01 > article > div > div.figTxt{
+		margin-top:30vw !important;
+	}
+	#idx-cont_fig03 > article > div > div.figTxt{
+		margin-top:13vw !important;
 	}
 /*	#wrapper-inner {
 	left: 0 !important;
