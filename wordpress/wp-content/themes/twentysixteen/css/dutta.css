@@ -186,6 +186,17 @@ img {
 #idx-cont_fig05 ul li{
 	width:100% !important;	
 }
+	#idx-cont_fig02,
+	#idx-cont_fig03,
+	#idx-cont_fig04,
+	#idx-cont_fig05{
+	min-width:340px !important;
+	height: auto !important;
+	}
+	#idx-cont_fig01{
+	min-width:300px !important;
+	height: auto !important;
+	}
 
 @media screen and (max-width: 720px) {
 	#bkPhoto2,
@@ -237,15 +248,19 @@ img {
 		position: relative !important;
 		margin: auto !important;	
 	}
-	#idx-cont_fig01,
+	#idx-cont_fig02,
 	#idx-cont_fig03,
+	#idx-cont_fig04,
 	#idx-cont_fig05{
+	max-width:340px !important;
+	height: auto !important;
+	}
+	#idx-cont_fig01{
 	max-width:300px !important;
 	height: auto !important;
 	}
 	#idx-cont_fig02
 	{
-	max-width:350px !important;
 	top: 65vw !important;
 	}
 	#idx-cont_fig02 > div.idx-bkTop > img{
@@ -256,7 +271,6 @@ img {
 	}
 	#idx-cont_fig04{
 		top: 75vw !important;
-		max-width:350px !important;
 	}
 	#idx-cont_fig05{
 		top: 80vw !important;
@@ -264,6 +278,7 @@ img {
 	#footer {
     height: 150vw !important;
 	}
+	
 /*	#wrapper-inner {
 	left: 0 !important;
 	}
