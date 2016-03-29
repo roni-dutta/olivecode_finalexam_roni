@@ -170,13 +170,13 @@ img {
     left: 16vw !important;
 }
 #footObj #bird2 {
-    left: 60vw !important;
+    left: 67vw !important;
 }
 #footObj #tree {
-    left: 50vw !important;
+    left: 60vw !important;
 }
 #logo{
-	left: 25vw !important;
+	left: 35vw !important;
     margin-left: 0 !important;
 }
 #copyright{
@@ -191,7 +191,7 @@ img {
 	#idx-cont_fig04,
 	#idx-cont_fig05{
 	min-width:340px !important;
-	height: auto !important;
+	/* height: auto !important; */
 	}
 	#idx-cont_fig01{
 	min-width:300px !important;
